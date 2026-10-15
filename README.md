@@ -1,8 +1,6 @@
 # Student Performance Analytics System
 
-This beginner-level Python project analyses student marks, attendance and assignment scores. It uses Python, NumPy and Pandas to calculate performance, classify students, compare departments and export reports.
-
-Important: student_data.csv contains fictional sample records made for demonstration. Replace them with authorised data if your instructor requires real data.
+A Python-based Student Performance Analytics System that analyzes student marks and attendance using Python, NumPy, and Pandas. It calculates total and average marks, assigns grades, identifies pass/fail status, analyzes subject-wise performance, and ranks top-performing students.
 
 ## Features
 
