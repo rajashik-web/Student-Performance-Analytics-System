@@ -1,6 +1,8 @@
 # Student Performance Analytics System
 
-A Python data-analysis project developed for the EWB Courses Python with AI assignment. This project analyzes student marks and attendance using Python, NumPy, and Pandas.
+This beginner-level Python project analyses student marks, attendance and assignment scores. It uses Python, NumPy and Pandas to calculate performance, classify students, compare departments and export reports.
+
+Important: student_data.csv contains fictional sample records made for demonstration. Replace them with authorised data if your instructor requires real data.
 
 ## Features
 
