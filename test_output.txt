@@ -1,0 +1,90 @@
+
+====================================================================
+          STUDENT PERFORMANCE ANALYTICS SYSTEM
+====================================================================
+
+1. DATASET OVERVIEW
+Number of students : 20
+Departments        : 3
+Columns            : 8
+
+Student records (first 10):
+Student_ID         Name          Department  Python  Mathematics  Artificial_Intelligence  Database_Management  Attendance_Percentage
+    STU001 Aarav Sharma             AI & ML      92           88                       95                   90                     96
+    STU002   Ananya Rao    Computer Science      78           84                       81                   86                     91
+    STU003  Rohan Kumar             AI & ML      65           72                       68                   70                     82
+    STU004  Diya Shetty Information Science      89           93                       91                   87                     98
+    STU005  Kiran Patel    Computer Science      54           61                       58                   63                     75
+    STU006   Meera Nair             AI & ML      96           94                       98                   97                     99
+    STU007  Arjun Reddy Information Science      71           69                       74                   72                     88
+    STU008    Sana Khan    Computer Science      83           79                       85                   80                     93
+    STU009   Vikram Das             AI & ML      32           48                       39                   45                     67
+    STU010   Isha Gowda Information Science      87           82                       89                   91                     95
+
+2. STUDENT RESULTS
+Student_ID          Name  Total_Marks  Average_Marks Grade Result
+    STU020  Priya Thomas        387.0          96.75     A   Pass
+    STU006    Meera Nair        385.0          96.25     A   Pass
+    STU001  Aarav Sharma        365.0          91.25     A   Pass
+    STU014   Aditi Menon        363.0          90.75     A   Pass
+    STU004   Diya Shetty        360.0          90.00     A   Pass
+    STU010    Isha Gowda        349.0          87.25     B   Pass
+    STU017 Siddharth Rao        342.0          85.50     B   Pass
+    STU002    Ananya Rao        329.0          82.25     B   Pass
+    STU008     Sana Khan        327.0          81.75     B   Pass
+    STU012   Pooja Hegde        319.0          79.75     B   Pass
+    STU019 Aditya Shekar        294.0          73.50     C   Pass
+    STU007   Arjun Reddy        286.0          71.50     C   Pass
+    STU016 Neha Kulkarni        278.0          69.50     C   Pass
+    STU003   Rohan Kumar        275.0          68.75     C   Pass
+    STU013   Nikhil Jain        241.0          60.25     C   Pass
+    STU005   Kiran Patel        236.0          59.00     D   Pass
+    STU018    Kavya Iyer        202.0          50.50     D   Pass
+    STU011   Rahul Verma        173.0          43.25     D   Pass
+    STU009    Vikram Das        164.0          41.00     D   Fail
+    STU015    Manoj Bhat        155.0          38.75     D   Pass
+
+3. CLASS SUMMARY
+Overall class average : 72.88
+Highest student avg   : 96.75
+Lowest student avg    : 38.75
+Students passed       : 19
+Students failed       : 1
+
+4. SUBJECT-WISE PERFORMANCE (best average first)
+                Subject  Average_Marks  Highest_Marks  Lowest_Marks
+    Database_Management          74.15             99            40
+            Mathematics          73.55             96            37
+Artificial_Intelligence          72.65             98            38
+                 Python          71.15             98            32
+
+5. TOP 5 PERFORMERS
+Student_ID         Name  Total_Marks  Average_Marks Grade Result
+    STU020 Priya Thomas        387.0          96.75     A   Pass
+    STU006   Meera Nair        385.0          96.25     A   Pass
+    STU001 Aarav Sharma        365.0          91.25     A   Pass
+    STU014  Aditi Menon        363.0          90.75     A   Pass
+    STU004  Diya Shetty        360.0          90.00     A   Pass
+
+6. PASS/FAIL COUNTS BY DEPARTMENT
+Result               Fail  Pass
+Department                     
+AI & ML                 1     6
+Computer Science        0     7
+Information Science     0     6
+
+Detailed results saved to: student_results.csv
+
+Analysis completed successfully.
+
+--- STDERR ---
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
